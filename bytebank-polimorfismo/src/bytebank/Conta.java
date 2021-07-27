@@ -1,4 +1,4 @@
-package bytebankII;
+package bytebank;
 
 public class Conta {
 	
