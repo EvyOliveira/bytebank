@@ -1,0 +1,7 @@
+package bytebankBeta;
+
+public class TestaBanco {
+	public static void main(String[] args) {
+		Cliente evelyn = new Cliente();
+	}
+}
