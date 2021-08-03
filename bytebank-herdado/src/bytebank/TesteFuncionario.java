@@ -9,8 +9,8 @@ public class TesteFuncionario {
 		evelyn.setCpf("1212121212-99");
 		evelyn.setSalario(10000.00);
 		
-		System.out.println(evelyn.getNome());
-		System.out.println(evelyn.getBonificacao());
+		System.out.println("O nome do funcionário é: " + evelyn.getNome());
+		System.out.println("A bonificação do funcionário corresponde à: " + evelyn.getBonificacao() + " reais");
 		
 	}
 

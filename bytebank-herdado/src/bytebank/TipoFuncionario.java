@@ -16,7 +16,7 @@ public class TipoFuncionario {
 		} else if (this.tipo == 1) { // 1 - Gerente
 			return this.salario;
 		} else { // 2 - Diretor
-			return this.salario + 1000.0;
+			return this.salario + 1000.00;
 		}
 	}
 	

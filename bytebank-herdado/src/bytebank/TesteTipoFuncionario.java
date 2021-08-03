@@ -7,16 +7,16 @@ public class TesteTipoFuncionario {
 		
 		f1.setSalario(3000.0);
 		
-		System.out.println(f1.getTipo());
-		System.out.println(f1.getBonificacao());
+		System.out.println("O tipo de funcionário se encaixa na categoria: " + f1.getTipo());
+		System.out.println("A bonificação do funcionário corresponde à: " + f1.getBonificacao() + " reais");
 		
 		TipoFuncionario f2 = new TipoFuncionario();
 		
 		f2.setTipo(1);
 		f2.setSalario(5000.0);
 		
-		System.out.println(f2.getTipo());
-		System.out.println(f2.getBonificacao());
+		System.out.println("O tipo de funcionário se encaixa na categoria: " + f2.getTipo());
+		System.out.println("A bonificação do funcionário corresponde à: " + f2.getBonificacao() + " reais");
 	
 	}
 
