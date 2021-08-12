@@ -16,6 +16,10 @@ public class TesteGerente {
 		
 		boolean autenticou =  g1.autentica(2222);
 		
+		System.out.println(autenticou);
+		
+		System.out.println(g1.getBonificacao());
+		
 		System.out.println("A senha está como " + autenticou);
 
 	}

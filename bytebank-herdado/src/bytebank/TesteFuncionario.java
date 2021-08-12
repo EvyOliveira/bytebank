@@ -12,6 +12,7 @@ public class TesteFuncionario {
 		System.out.println("O nome do funcionário é: " + evelyn.getNome());
 		System.out.println("A bonificação do funcionário corresponde à: " + evelyn.getBonificacao() + " reais");
 		
+		//evelyn.salario = 300.0;
 	}
 
 }
