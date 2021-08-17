@@ -15,13 +15,17 @@ public class TesteReferencias {
 		Funcionario f = new Funcionario();
 		f.setSalario(2000.0);
 		
-		EditorDeVideo e = new EditorDeVideo();
+		Funcionario e = new EditorDeVideo();
 		e.setSalario(2500.0);
+		
+		Designer d = new Designer();
+		e.setSalario(2000.0);
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(g1);
 		controle.registra(f);
 		controle.registra(e);
+		controle.registra(d);
 		
 		System.out.println("O salário com a bonificação de um gerente é de " + controle.getSoma() + " reais.");
 	}
